@@ -6,7 +6,7 @@ Build a neural network classify images from the [CIFAR-10 dataset](https://www.c
 
 2. Explore the data
 
-The dataset is broken into batches to prevent the machine from running out of memory. The CIFAR-10 dataset consists of 5 batches, named `data_batch_1`, `data_batch_2`, etc.. Each batch contains the labels and images that are one of the following: airplane, automobile, bird, cat, deer, dog, frog, horse, ship or truck.
+	The dataset is broken into batches to prevent the machine from running out of memory. The CIFAR-10 dataset consists of 5 batches, named `data_batch_1`, `data_batch_2`, etc.. Each batch contains the labels and images that are one of the following: airplane, automobile, bird, cat, deer, dog, frog, horse, ship or truck.
 
 3. Implement preprocess functions
 	- normalize: normalizes image data in the range of 0 to 1
