@@ -2,6 +2,8 @@
 
 Build a neural network classify images from the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html). The dataset consists of airplanes, dogs, cats, and other objects. The dataset will need to be preprocessed, then train a convolutional neural network on all the samples. 
 
+`Object_Recognition.ipynb`:
+
 1. Get the data
 
 2. Explore the data
