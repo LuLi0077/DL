@@ -3,10 +3,10 @@
 Transfer learning involves taking a pre-trained neural network and adapting the neural network to a new, different data set.
 
 Four cases when using transfer learning:
-![Guide](https://github.com/LuLi0077/DL/blob/master/Transfer_Learning/images/guide.png)
+<img src="images/guide.png" width="600">
 
 ## [AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
-![AlexNet](https://github.com/LuLi0077/DL/blob/master/Transfer_Learning/images/alexnet.png)
+<img src="images/alexnet.png" width="600">
 
 AlexNet is a popular base network for transfer learning because its structure is relatively straightforward, it's not too big, and it performs well empirically.
 
@@ -22,8 +22,7 @@ AlexNet is a popular base network for transfer learning because its structure is
 
 
 ## [VGG](https://arxiv.org/pdf/1409.1556.pdf), GoogLeNet and ResNet
-
-![VGG](https://github.com/LuLi0077/DL/blob/master/Transfer_Learning/images/vgg-architecture.png)
+<img src="images/vgg-architecture.png" width="600">
 
 These models were trained for days or weeks on the ImageNet dataset. Thus, the weights encapsulate higher-level features learned from training on thousands of classes.
 
@@ -31,9 +30,9 @@ These models were trained for days or weeks on the ImageNet dataset. Thus, the w
 * [Cifar10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 * `feature_extraction_vgg.py` - Train feature extraction with the VGG network/Cifar10 dataset bottleneck features. The 100 in vgg_cifar10_100 indicates this file has 100 examples per class.
 
-### VGG for artistic style transfer
+### VGG for Artistic Style Transfer
 
-`artistic_style_transfer.ipynb` 
+`artistic_style_transfer.ipynb` -  
 * Load and preprocess the content and style images
 
 ![content_style](https://github.com/LuLi0077/DL/blob/master/Transfer_Learning/images/content_style.png)
