@@ -21,10 +21,24 @@ AlexNet is a popular base network for transfer learning because its structure is
 * `train_feature_extraction_cifar10.py` - Test model performance using Cifar10 dataset.
 
 
-## VGG, GoogLeNet and ResNet
+## [VGG](https://arxiv.org/pdf/1409.1556.pdf), GoogLeNet and ResNet
+
+![VGG](https://github.com/LuLi0077/DL/blob/master/Transfer_Learning/images/vgg-architecture.png)
 
 These models were trained for days or weeks on the ImageNet dataset. Thus, the weights encapsulate higher-level features learned from training on thousands of classes.
 
 * [ImageNet dataset](http://www.image-net.org/)
 * [Cifar10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 * `feature_extraction_vgg.py` - Train feature extraction with the VGG network/Cifar10 dataset bottleneck features. The 100 in vgg_cifar10_100 indicates this file has 100 examples per class.
+
+### VGG for artistic style transfer
+
+`artistic_style_transfer.ipynb` 
+* Load and preprocess the content and style images
+
+![content_style](https://github.com/LuLi0077/DL/blob/master/Transfer_Learning/images/content_style.png)
+
+* Reuse a pre-trained model
+* Solve the optimization
+
+![combine](https://github.com/LuLi0077/DL/blob/master/Transfer_Learning/images/combine.png)
