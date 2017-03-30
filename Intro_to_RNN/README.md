@@ -6,14 +6,18 @@ Build a character-wise RNN trained on Anna Karenina. It'll be able to generate n
 
 This network is based off of Andrej Karpathy's [post on RNNs](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) and [implementation in Torch](https://github.com/karpathy/char-rnn). Also, some information [here at r2rt](http://r2rt.com/recurrent-neural-networks-in-tensorflow-ii.html) and from [Sherjil Ozair](https://github.com/sherjilozair/char-rnn-tensorflow) on GitHub. Below is the general architecture of the character-wise RNN.
 
-<img src="charseq.jpeg" width="500">
+<img src="charseq.jpeg" width="600">
 
-`Intro_to_RNN.ipynb`
+`Intro_to_RNN.ipynb` - 
 * Load the text file
 * Making training and validation batches
 * Building the model
 * Training
 * Sampling
+
+`write_to_tensorboard.py` - 
+
+<img src="graph-run=.png" width="600">
 
 
 ### Resources
