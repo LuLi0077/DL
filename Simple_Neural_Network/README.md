@@ -20,82 +20,76 @@ Having good initial weights can place the neural network close to the optimal so
 
 * All zeros or ones
 
-<img src="images/all_zero_oneim.png"/> 
-After 858 Batches (2 Epochs):
-Validation Accuracy
-   11.260% -- All Zeros
-   10.020% -- All Ones
-Loss
-    2.304  -- All Zeros
-  236.497  -- All Ones
+<img src="images/all_zero_one.png"/>   
+Validation Accuracy. 
+   11.260% -- All Zeros. 
+   10.020% -- All Ones. 
+Loss. 
+    2.304  -- All Zeros. 
+  236.497  -- All Ones. 
 
 * Uniform distribution
+
 	- Baseline: minval=0.0 and maxval=1.0
 
 <img src="images/baseline.png"/> 
-After 858 Batches (2 Epochs):
-Validation Accuracy
-   48.220% -- tf.random_uniform [0, 1)
-Loss
-   82.085  -- tf.random_uniform [0, 1)
+Validation Accuracy. 
+   48.220% -- tf.random_uniform [0, 1). 
+Loss. 
+   82.085  -- tf.random_uniform [0, 1). 
 
 	- BaselinePlus: minval=-1.0 and maxval=1.0
 
 <img src="images/baselineplus.png"/> 
-After 858 Batches (2 Epochs):
-Validation Accuracy
-   82.900% -- tf.random_uniform [0, 1)
-   90.080% -- tf.random_uniform [-1, 1)
-Loss
-    7.432  -- tf.random_uniform [0, 1)
-    3.851  -- tf.random_uniform [-1, 1)
+Validation Accuracy. 
+   82.900% -- tf.random_uniform [0, 1). 
+   90.080% -- tf.random_uniform [-1, 1). 
+Loss. 
+    7.432  -- tf.random_uniform [0, 1). 
+    3.851  -- tf.random_uniform [-1, 1). 
 
 	- Compare [-0.1, 0.1), [-0.01, 0.01), and [-0.001, 0.001):
 
 <img src="images/compare.png"/>
-After 858 Batches (2 Epochs):
-Validation Accuracy
-   90.160% -- [-1, 1)
-   96.940% -- [-0.1, 0.1)
-   95.420% -- [-0.01, 0.01)
-   94.340% -- [-0.001, 0.001)
-Loss
-    1.008  -- [-1, 1)
-    0.182  -- [-0.1, 0.1)
-    0.126  -- [-0.01, 0.01)
-    0.284  -- [-0.001, 0.001)
+Validation Accuracy. 
+   90.160% -- [-1, 1). 
+   96.940% -- [-0.1, 0.1). 
+   95.420% -- [-0.01, 0.01). 
+   94.340% -- [-0.001, 0.001). 
+Loss  
+    1.008  -- [-1, 1). 
+    0.182  -- [-0.1, 0.1). 
+    0.126  -- [-0.01, 0.01). 
+    0.284  -- [-0.001, 0.001). 
 
 	- General rule for setting weights:
 
 <img src="images/generalrule.png"/>
-After 858 Batches (2 Epochs):
-Validation Accuracy
-   96.920% -- [-0.1, 0.1)
-   96.760% -- General Rule
-Loss
-    0.124  -- [-0.1, 0.1)
-    0.081  -- General Rule
+Validation Accuracy. 
+   96.920% -- [-0.1, 0.1). 
+   96.760% -- General Rule  
+Loss. 
+    0.124  -- [-0.1, 0.1). 
+    0.081  -- General Rule. 
 
 
 * Normal distribution
 
 <img src="images/normal.png"/>
-After 858 Batches (2 Epochs):
-Validation Accuracy
-   97.040% -- Uniform [-0.1, 0.1)
-   97.280% -- Normal stddev 0.1
-Loss
-    0.048  -- Uniform [-0.1, 0.1)
-    0.075  -- Normal stddev 0.1
+Validation Accuracy. 
+   97.040% -- Uniform [-0.1, 0.1). 
+   97.280% -- Normal stddev 0.1. 
+Loss. 
+    0.048  -- Uniform [-0.1, 0.1). 
+    0.075  -- Normal stddev 0.1. 
 
 
 * Truncated normal distribution
 
 <img src="images/tnormal.png"/>
-After 858 Batches (2 Epochs):
-Validation Accuracy
-   96.940% -- Normal
-   96.540% -- Truncated Normal
-Loss
-    0.124  -- Normal
-    0.221  -- Truncated Normal
+Validation Accuracy  
+   96.940% -- Normal. 
+   96.540% -- Truncated Normal. 
+Loss. 
+    0.124  -- Normal. 
+    0.221  -- Truncated Normal. 

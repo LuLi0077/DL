@@ -6,3 +6,4 @@ Generate [Simpsons](https://en.wikipedia.org/wiki/The_Simpsons) TV scripts using
 
 * Get the data
 * Explore the Data
+* Preprocessing: lookup table; tokenize punctuation
