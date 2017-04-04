@@ -22,13 +22,25 @@ AlexNet is a popular base network for transfer learning because its structure is
 
 
 ## [VGG](https://arxiv.org/pdf/1409.1556.pdf), GoogLeNet and ResNet
-<img src="images/vgg-architecture.png" width="600">
 
 These models were trained for days or weeks on the ImageNet dataset. Thus, the weights encapsulate higher-level features learned from training on thousands of classes.
 
 * [ImageNet dataset](http://www.image-net.org/)
 * [Cifar10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 * `feature_extraction_vgg.py` - Train feature extraction with the VGG network/Cifar10 dataset bottleneck features. The 100 in vgg_cifar10_100 indicates this file has 100 examples per class.
+
+### [VGG](http://www.robots.ox.ac.uk/~vgg/research/very_deep/) for Flower Power
+<img src="images/cnnarchitecture.jpg" width="600">
+
+Use VGGNet to classify images of flowers.
+
+`flower_power.ipynb` -
+* Pretrained [VGGNet](https://github.com/machrisaa/tensorflow-vgg)
+* Get the [flower dataset](https://www.tensorflow.org/tutorials/image_retraining)
+* ConvNet codes
+* Building the classifier
+* Trainig and testing
+
 
 ### VGG for Artistic Style Transfer
 
