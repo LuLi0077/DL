@@ -5,5 +5,10 @@ Generate [Simpsons](https://en.wikipedia.org/wiki/The_Simpsons) TV scripts using
 `tv_script_generation.ipynb` - 
 
 * Get the data
-* Explore the Data
-* Preprocessing: lookup table; tokenize punctuation
+* Explore the data
+* Preprocess: lookup table; tokenize punctuation
+* Build the Neural Network
+* Train the Neural Network
+* Generate TV script
+
+The TV script doesn't make any sense.  We trained on less than a megabyte of text.  In order to get good results, we'll have to use a smaller vocabulary or get more data.  Luckly there's more [data](https://www.kaggle.com/wcukierski/the-simpsons-by-the-data)!  
