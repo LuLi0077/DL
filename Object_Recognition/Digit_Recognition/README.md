@@ -3,7 +3,7 @@
 Building a neural network that recognizes handwritten numbers using the **MNIST** data set, which consists of images of handwritten numbers and their correct labels 0-9. We'll be using [TFLearn](http://tflearn.org/), a high-level library built on top of TensorFlow to build the neural network.
 
 For humans its easy to see that these numbers are 5, 0, 4, 1, 9, and 2, but for computers it can be a challenging problem.
-![SampleDigits](https://github.com/LuLi0077/DL/blob/master/Digit_Recognition/SampleDigits.png)
+![SampleDigits](https://github.com/LuLi0077/DL/blob/master/Object_Recognition/Digit_Recognition/SampleDigits.png)
 
 ## About the data
 

@@ -11,8 +11,3 @@ This network is based off of Andrej Karpathy's [post on RNNs](http://karpathy.gi
 * `Intro_to_RNN.ipynb`
 * `write_to_tensorboard.py`
 
-## Autoencoders
-
-
-## Generate Images
-
