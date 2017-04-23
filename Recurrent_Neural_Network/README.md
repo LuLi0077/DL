@@ -11,3 +11,6 @@ This network is based off of Andrej Karpathy's [post on RNNs](http://karpathy.gi
 * `Intro_to_RNN.ipynb`
 * `write_to_tensorboard.py`
 
+## How-to-Generate-Music-Demo
+
+This is the code for 'How to Generate Music - Intro to Deep Learning #9' by Siraj Raval on YouTube. It builds a two-layer LSTM, learning from the given MIDI file, to generate jazz music. 
