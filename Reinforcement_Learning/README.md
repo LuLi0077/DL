@@ -47,3 +47,11 @@ So, Cart-Pole is a pretty simple game. However, the same model can be used to tr
 ![Deep Q-Learning Atari](assets/atari-network.png)
 
 Here's the original paper: http://www.davidqiu.com:8888/research/nature14236.pdf.
+
+
+## [Smartcab](https://github.com/udacity/machine-learning/tree/master/projects/smartcab)
+
+Apply reinforcement learning techniques for a self-driving agent in a simplified world to aid it in effectively reaching its destinations in the allotted time. First, investigate the environment the agent operates in by constructing a very basic driving implementation. Once the agent is successful at operating within the environment, identify each possible state the agent can be in when considering such things as traffic lights and oncoming traffic at each intersection. With states identified, implement a Q-Learning algorithm for the self-driving agent to guide the agent towards its destination within the allotted time. Finally, improve upon the Q-Learning algorithm to find the best configuration of learning and exploration factors to ensure the self-driving agent is reaching its destinations with consistently positive results.
+
+
+
