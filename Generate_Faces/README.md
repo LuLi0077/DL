@@ -10,3 +10,20 @@ Build a simple autoencoder to compress the MNIST dataset. With autoencoders, we 
 * `Simple_Autoencoder.ipynb`
 * `Convolutional_Autoencoder.ipynb`
 * `demo_generate_images.ipynb`
+
+
+## [how_to_generate_video](https://github.com/llSourcell/how_to_generate_video)
+
+This is the code for "How to Generate Video - Intro to Deep Learning #15' by Siraj Raval on YouTube
+
+* `logograms.ipynb`
+
+
+## Resources
+
+* [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf)
+* [Generative Models](https://blog.openai.com/generative-models/)
+* Neural Information Processing Systems Conference - NIPS 2016: [Generative Adversarial Networks](https://channel9.msdn.com/Events/Neural-Information-Processing-Systems-Conference/Neural-Information-Processing-Systems-Conference-NIPS-2016/Generative-Adversarial-Networks)
+* [An introduction to Generative Adversarial Networks (with code in TensorFlow)](http://blog.aylien.com/introduction-generative-adversarial-networks-code-tensorflow/)
+* [Generative Adversarial Nets in TensorFlow](http://wiseodd.github.io/techblog/2016/09/17/gan-tensorflow/)
+
