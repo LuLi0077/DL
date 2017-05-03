@@ -6,9 +6,9 @@ This is the code for [this](https://www.youtube.com/watch?v=-E2N1kQc8MM&feature=
 
 Clean             |  Dirty                    
 :----------------:|:----------------:
-<img src="https://github.com/LuLi0077/DL/tree/master/Generative_Adversarial_Network/how_to_generate_video/examples/clean.png" width="425" height="300">  |  <img src="https://github.com/LuLi0077/DL/tree/master/Generative_Adversarial_Network/how_to_generate_video/examples/dirty.png" width="425" height="300"> :
-<img src="https://github.com/LuLi0077/DL/tree/master/Generative_Adversarial_Network/how_to_generate_video/examples/clean1.png" width="425" height="300">  |  <img src="https://github.com/LuLi0077/DL/tree/master/Generative_Adversarial_Network/how_to_generate_video/examples/dirty1.png" width="425" height="300"> :
-<img src="https://github.com/LuLi0077/DL/tree/master/Generative_Adversarial_Network/how_to_generate_video/examples/clean2.png" width="425" height="300">  |  <img src="https://github.com/LuLi0077/DL/tree/master/Generative_Adversarial_Network/how_to_generate_video/examples/dirty2.png" width="425" height="300"> :  
+<img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/how_to_generate_video/examples/clean.png" width="425" height="300">  |  <img src="https://github.com/LuLi0077/DL/blob//master/Generative_Adversarial_Network/how_to_generate_video/examples/dirty.png" width="425" height="300">  
+<img src="https://github.com/LuLi0077/DL/blob//master/Generative_Adversarial_Network/how_to_generate_video/examples/clean1.png" width="425" height="300">  |  <img src="https://github.com/LuLi0077/DL/blob//master/Generative_Adversarial_Network/how_to_generate_video/examples/dirty1.png" width="425" height="300">  
+<img src="https://github.com/LuLi0077/DL/blob//master/Generative_Adversarial_Network/how_to_generate_video/examples/clean2.png" width="425" height="300">  |  <img src="https://github.com/LuLi0077/DL/blob//master/Generative_Adversarial_Network/how_to_generate_video/examples/dirty2.png" width="425" height="300">    
 
 ### Generated image
 
