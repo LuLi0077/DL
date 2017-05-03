@@ -48,4 +48,5 @@ Use a generative adversarial network (GAN) to generate novel faces.
 * Neural Information Processing Systems Conference - NIPS 2016: [Generative Adversarial Networks](https://channel9.msdn.com/Events/Neural-Information-Processing-Systems-Conference/Neural-Information-Processing-Systems-Conference-NIPS-2016/Generative-Adversarial-Networks)
 * [An introduction to Generative Adversarial Networks (with code in TensorFlow)](http://blog.aylien.com/introduction-generative-adversarial-networks-code-tensorflow/)
 * [Generative Adversarial Nets in TensorFlow](http://wiseodd.github.io/techblog/2016/09/17/gan-tensorflow/)
+* [Improved Techniques for Training GANs](https://arxiv.org/pdf/1606.03498.pdf)
 
