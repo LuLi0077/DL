@@ -20,6 +20,9 @@ The output of the discriminator is a sigmoid function, where 0 indicates a fake 
 
 * `Intro_to_GANs.ipynb`
 
+Sample generated figures:
+![sample](images/ample.png)
+
 
 ## Autoencoders
 
