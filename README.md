@@ -39,5 +39,8 @@ take a pre-trained neural network (e.g AlexNet, VGG, GoogLeNet, ResNet) and adap
 * [How_to_generate_video](https://github.com/llSourcell/how_to_generate_video)
 * Generate_Faces: use a generative adversarial network (GAN) to generate novel faces
 
+### [One_Shot_Learning](https://en.wikipedia.org/wiki/One-shot_learning)
+* [How-to-Learn-from-Little-Data](https://github.com/llSourcell/How-to-Learn-from-Little-Data): use a [Memory Augmented Neural Network](https://arxiv.org/abs/1605.06065) in Tensorflow to perform one-shot learning on the [Omniglot dataset](https://github.com/brendenlake/omniglot)
+
 ### Stanford_CS20SI_tensorflow_for_deep_learning_research
 contains code examples for the course CS 20SI: TensorFlow for Deep Learning Research
