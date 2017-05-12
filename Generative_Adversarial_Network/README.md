@@ -34,16 +34,24 @@ Build a simple autoencoder to compress the MNIST dataset. With autoencoders, we 
 * `demo_generate_images.ipynb`
 
 
-## [how_to_generate_video](https://github.com/llSourcell/how_to_generate_video)
+## Deep Convolutional GANs
 
-This is the code for "How to Generate Video - Intro to Deep Learning #15' by Siraj Raval on YouTube
+Implement the Deep Convolutional GAN model to generate full color images. The additional complexity of these images requires using convolutional layers in the generator and discriminator. Batch normalization is also needed to get the GAN to train appropriately.
 
-* `logograms.ipynb`
+* `Batch_Normalization.ipynb`
+* `DCGAN.ipynb`
 
 
 ## Generate Faces
 
 Use a generative adversarial network (GAN) to generate novel faces.
+
+
+## [how_to_generate_video](https://github.com/llSourcell/how_to_generate_video)
+
+This is the code for "How to Generate Video - Intro to Deep Learning #15' by Siraj Raval on YouTube
+
+* `logograms.ipynb`
 
 
 ## Resources
@@ -53,4 +61,3 @@ Use a generative adversarial network (GAN) to generate novel faces.
 * [An introduction to Generative Adversarial Networks (with code in TensorFlow)](http://blog.aylien.com/introduction-generative-adversarial-networks-code-tensorflow/)
 * [Generative Adversarial Nets in TensorFlow](http://wiseodd.github.io/techblog/2016/09/17/gan-tensorflow/)
 * [Improved Techniques for Training GANs](https://arxiv.org/pdf/1606.03498.pdf)
-

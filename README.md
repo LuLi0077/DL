@@ -36,10 +36,11 @@ take a pre-trained neural network (e.g AlexNet, VGG, GoogLeNet, ResNet) and adap
 ### Generative_Adversarial_Network
 * `Intro_to_GANs.ipynb`: build a generative adversarial network (GAN) trained on the MNIST dataset
 * Autoencoders: build a simple autoencoder to compress the MNIST dataset
-* [How_to_generate_video](https://github.com/llSourcell/how_to_generate_video)
+* Deep_Convolutiona_GANs: implement the Deep Convolutional GAN model to generate full color images
 * Generate_Faces: use a generative adversarial network (GAN) to generate novel faces
+* [How_to_generate_video](https://github.com/llSourcell/how_to_generate_video)
 
-### [One_Shot_Learning](https://en.wikipedia.org/wiki/One-shot_learning)
+### One_Shot_Learning
 * [How-to-Learn-from-Little-Data](https://github.com/llSourcell/How-to-Learn-from-Little-Data): use a [Memory Augmented Neural Network](https://arxiv.org/abs/1605.06065) in Tensorflow to perform one-shot learning on the [Omniglot dataset](https://github.com/brendenlake/omniglot)
 
 ### Stanford_CS20SI_tensorflow_for_deep_learning_research
