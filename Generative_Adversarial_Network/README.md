@@ -46,6 +46,8 @@ Implement the Deep Convolutional GAN model to generate full color images. The ad
 
 Use a generative adversarial network (GAN) to generate novel faces.
 
+* `face_generation.ipynb`
+
 
 ## [how_to_generate_video](https://github.com/llSourcell/how_to_generate_video)
 
