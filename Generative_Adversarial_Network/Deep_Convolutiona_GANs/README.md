@@ -47,7 +47,37 @@ two networks using a ReLU activation function, a learning rate of 2, and bad sta
 
 ### DCGAN Implementation
 
-* `DCGAN.ipynb`
+`DCGAN.ipynb` - 
+* Getting the data
+* Network inputs
+* Generator (below is the archicture used in the original DCGAN paper)
+
+![DCGAN Generator](assets/dcgan.png)
+
+* Discriminator
+* Model loss 
+* Optimizers 
+* Building the model 
+* Hyperparameters (below are the sample generated images during training)
+
+Epoch 1/10 Discriminator Loss: 0.4504 Generator Loss: 1.5919 | Epoch 2/10 Discriminator Loss: 0.6140 Generator Loss: 1.2087    
+:-----------------------------------------------------------:|:-----------------------------------------------------------:
+<img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Deep_Convolutiona_GANs/assets/gen1.png" width="425" height="300"> | <img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Deep_Convolutiona_GANs/assets/gen2.png" width="425" height="300">  
+Epoch 3/10 Discriminator Loss: 1.0327 Generator Loss: 1.0601 | Epoch 4/10 Discriminator Loss: 1.3329 Generator Loss: 0.8090     
+:-----------------------------------------------------------:|:-----------------------------------------------------------:
+<img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Deep_Convolutiona_GANs/assets/gen3.png" width="425" height="300"> | <img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Deep_Convolutiona_GANs/assets/gen4.png" width="425" height="300"> 
+
+Epoch 5/10 Discriminator Loss: 1.5532 Generator Loss: 1.0704 | Epoch 6/10 Discriminator Loss: 1.0467 Generator Loss: 1.2126     
+:-----------------------------------------------------------:|:-----------------------------------------------------------:
+<img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Deep_Convolutiona_GANs/assets/gen5.png" width="425" height="300"> | <img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Deep_Convolutiona_GANs/assets/gen6.png" width="425" height="300">
+
+Epoch 7/10 Discriminator Loss: 1.5532 Generator Loss: 1.0704 | Epoch 8/10 Discriminator Loss: 1.3329 Generator Loss: 0.8090     
+:-----------------------------------------------------------:|:-----------------------------------------------------------:
+<img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Deep_Convolutiona_GANs/assets/gen7.png" width="425" height="300"> | <img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Deep_Convolutiona_GANs/assets/gen8.png" width="425" height="300">
+
+Epoch 9/10 Discriminator Loss: 1.5532 Generator Loss: 1.0704 | Epoch 10/10 Discriminator Loss: 1.3329 Generator Loss: 0.8090     
+:-----------------------------------------------------------:|:-----------------------------------------------------------:
+<img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Deep_Convolutiona_GANs/assets/gen9.png" width="425" height="300"> | <img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Deep_Convolutiona_GANs/assets/gen10.png" width="425" height="300">
 
 
 ## Resources
