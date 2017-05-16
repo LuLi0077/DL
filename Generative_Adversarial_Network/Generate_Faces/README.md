@@ -11,6 +11,7 @@ MNIST Sample Images | CelebA Sample Images
 <img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Generate_Faces/assets/mnist.png" width="425" height="300"> | <img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Generate_Faces/assets/celeba.png" width="425" height="300">  
 
 2. Build the Neural Network
+
 * Input: implement the `model_inputs` function to create TF Placeholders for the Neural Network.
 * Discriminator: implement `discriminator` to create a discriminator neural network that discriminates on `images`.
 * Generator: implement `generator` to generate an image using `z`. 
@@ -21,25 +22,17 @@ MNIST Sample Images | CelebA Sample Images
 
 * MNIST
 
-Epoch 1/2 Discriminator Loss: 1.5104 Generator Loss: 0.6003 | Epoch 2/2 Discriminator Loss: 1.2627 Generator Loss: 0.6249    
+Epoch 1/2 Discriminator Loss: 1.6588 Generator Loss: 1.4563 | Epoch 2/2 Discriminator Loss: 1.2029 Generator Loss: 1.1814    
 :----------------------------------------------------------:|:----------------------------------------------------------:
 <img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Generate_Faces/assets/mnist1.png" width="425" height="300"> | <img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Generate_Faces/assets/mnist2.png" width="425" height="300">
 
 * CelebA
 
-Discriminator Loss: 0.8117 Generator Loss: 1.5095 | Discriminator Loss: 1.2518 Generator Loss: 1.1940    
+Discriminator Loss: 1.4142 Generator Loss: 1.8851 | Discriminator Loss: 1.4052 Generator Loss: 0.7814    
 :------------------------------------------------:|:------------------------------------------------:
 <img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Generate_Faces/assets/celeba1.png" width="425" height="300"> | <img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Generate_Faces/assets/celeba2.png" width="425" height="300">
 
-Discriminator Loss: 1.0874 Generator Loss: 0.8658 | Discriminator Loss: 1.2037 Generator Loss: 0.8593   
+Discriminator Loss: 1.3972 Generator Loss: 0.7707 | Discriminator Loss: 1.3767 Generator Loss: 0.6612   
 :------------------------------------------------:|:------------------------------------------------:
 <img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Generate_Faces/assets/celeba3.png" width="425" height="300"> | <img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Generate_Faces/assets/celeba4.png" width="425" height="300">
-
-Discriminator Loss: 1.4271 Generator Loss: 0.5355 | Discriminator Loss: 1.0541 Generator Loss: 1.0684    
-:------------------------------------------------:|:------------------------------------------------:
-<img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Generate_Faces/assets/celeba5.png" width="425" height="300"> | <img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Generate_Faces/assets/celeba6.png" width="425" height="300">
-
-Discriminator Loss: 1.1710 Generator Loss: 0.8174 | Discriminator Loss: 1.3247 Generator Loss: 0.5988   
-:------------------------------------------------:|:------------------------------------------------:
-<img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Generate_Faces/assets/celeba7.png" width="425" height="300"> | <img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Generate_Faces/assets/celeba8.png" width="425" height="300">
 
