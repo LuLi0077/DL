@@ -22,17 +22,14 @@ MNIST Sample Images | CelebA Sample Images
 
 * MNIST
 
-Epoch 1/2 Discriminator Loss: 1.6588 Generator Loss: 1.4563 | Epoch 2/2 Discriminator Loss: 1.2029 Generator Loss: 1.1814    
+Epoch 1/2 Discriminator Loss: 1.4041 Generator Loss: 0.6163 | Epoch 2/2 Discriminator Loss: 1.1726 Generator Loss: 0.9164    
 :----------------------------------------------------------:|:----------------------------------------------------------:
 <img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Generate_Faces/assets/mnist1.png" width="425" height="300"> | <img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Generate_Faces/assets/mnist2.png" width="425" height="300">
 
 * CelebA
 
-Discriminator Loss: 1.4142 Generator Loss: 1.8851 | Discriminator Loss: 1.4052 Generator Loss: 0.7814    
+Discriminator Loss: 1.4917 Generator Loss: 0.6127 | Discriminator Loss: 1.3936 Generator Loss: 0.6625    
 :------------------------------------------------:|:------------------------------------------------:
 <img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Generate_Faces/assets/celeba1.png" width="425" height="300"> | <img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Generate_Faces/assets/celeba2.png" width="425" height="300">
 
-Discriminator Loss: 1.3972 Generator Loss: 0.7707 | Discriminator Loss: 1.3767 Generator Loss: 0.6612   
-:------------------------------------------------:|:------------------------------------------------:
-<img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Generate_Faces/assets/celeba3.png" width="425" height="300"> | <img src="https://github.com/LuLi0077/DL/blob/master/Generative_Adversarial_Network/Generate_Faces/assets/celeba4.png" width="425" height="300">
 
