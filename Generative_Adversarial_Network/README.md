@@ -49,6 +49,17 @@ Use a generative adversarial network (GAN) to generate novel faces.
 * `face_generation.ipynb`
 
 
+## Semi-supervised Learning
+
+In supervised learning, we have a training set of inputs $x$ and class labels $y$. We train a model that takes $x$ as input and gives $y$ as output.
+
+In semi-supervised learning, our goal is still to train a model that takes $x$ as input and generates $y$ as output. However, not all of our training examples have a label $y$. We need to develop an algorithm that is able to get better at classification by studying both labeled $(x, y)$ pairs and unlabeled $x$ examples.
+
+To do this for the SVHN dataset, we'll turn the GAN discriminator into an 11 class discriminator. It will recognize the 10 different classes of real SVHN digits, as well as an 11th class of fake images that come from the generator. The discriminator will get to train on real labeled images, real unlabeled images, and fake images. By drawing on three sources of data instead of just one, it will generalize to the test set much better than a traditional classifier trained on only one source of data.
+
+* `semi-supervised_learning.ipynb`
+
+
 ## [how_to_generate_video](https://github.com/llSourcell/how_to_generate_video)
 
 This is the code for "How to Generate Video - Intro to Deep Learning #15' by Siraj Raval on YouTube
@@ -62,4 +73,6 @@ This is the code for "How to Generate Video - Intro to Deep Learning #15' by Sir
 * Neural Information Processing Systems Conference - NIPS 2016: [Generative Adversarial Networks](https://channel9.msdn.com/Events/Neural-Information-Processing-Systems-Conference/Neural-Information-Processing-Systems-Conference-NIPS-2016/Generative-Adversarial-Networks)
 * [An introduction to Generative Adversarial Networks (with code in TensorFlow)](http://blog.aylien.com/introduction-generative-adversarial-networks-code-tensorflow/)
 * [Generative Adversarial Nets in TensorFlow](http://wiseodd.github.io/techblog/2016/09/17/gan-tensorflow/)
+* [Improved Techniques for Training GANs](https://arxiv.org/pdf/1606.03498.pdf)
+* [Semi-supervised Learning with Deep Generative Models](https://arxiv.org/pdf/1406.5298.pdf)
 * [Improved Techniques for Training GANs](https://arxiv.org/pdf/1606.03498.pdf)
